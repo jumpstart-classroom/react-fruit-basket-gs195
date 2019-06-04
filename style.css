@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Helvetica;
+}
+
+#container {
+    text-align: center;
+    display: block;
+
+}
+
+#container input{
+    width:50%;
+
+}
