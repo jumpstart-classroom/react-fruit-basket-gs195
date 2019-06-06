@@ -15,7 +15,6 @@ body::before {
 }
 
 body {
-  /* background-color: whitesmoke; */
   box-sizing: border-box;
   font-family: sans-serif;
   font-size: 2rem;
@@ -25,37 +24,28 @@ body {
   padding: 4rem;
 }
 
-/* body {
-  box-sizing: border-box;
-  border-width: 0 1px;
-  font-family: sans-serif;
-  font-size: 2rem;
-  margin: 0 auto;
-  max-width: 700px;
-  min-height: 100vh;
-  padding: 4rem;
-  background: url(http://www.erikie.nl/wp-content/gallery/high-res-backgrounds/bg3.jpg);
-  background-position: center right;
-  background-attachment: fixed;
-} */
-
 h1 {
   text-align: center;
   font-size: 3rem;
-  color: rgb(40, 40, 41);
+  color: rgb(69, 69, 71);
   min-width: 500px;
 }
 
 #container {
   /* text-align: center; */
-  margin: 0 120px;
+  margin: 0 auto;
+  width: 350px;
   display: block;
   min-width: 250px;
-  padding: 15px 20px 20px 20px;
+  padding: 20px 25px 25px 25px;
   background: #f4f7f8;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   border-radius: 8px;
+  min-width: 200px;
+  /* border-style: solid;
+  border-width: .5px;
+  border-color: grey; */
 }
 
 #container input {
@@ -66,6 +56,8 @@ h1 {
   font-size: 1.2rem;
   padding: 5px 0px 5px 5px;
   border-width: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #container ul {
@@ -77,34 +69,37 @@ h1 {
   margin: 0;
   padding: 0;
   position: relative;
-  color: rgb(40, 40, 41);
+  color:  rgb(69, 69, 71);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
 }
 
 #container ul li {
-  background-color: rgb(196, 243, 255);
+  background-color: rgb(223, 255, 217);
   padding: 1rem;
 }
 #container ul li:nth-child(even) {
-  background-color: rgb(162, 226, 255);
+  background-color: rgb(191, 255, 194);
 }
 
 #container ul li:hover {
-  background: rgb(146, 200, 250);
+  background: rgb(133, 255, 184);
   border-radius: 4px;
 }
 
 footer {
-  width: 100%;
   text-align: right;
   font-size: 12px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 20px;
+  margin: 20px 240px;
+  padding-top: 5px;
+  position: relative;
+  min-width: 200px;
+
 }
 
 p {
-  margin-bottom: 30px;
   color: rgb(114, 113, 113);
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 30px;
-  width: auto;
 }
